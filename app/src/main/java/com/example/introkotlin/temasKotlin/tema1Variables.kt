@@ -1,4 +1,4 @@
-package com.example.introkotlin.TemasKotlin
+package com.example.introkotlin.temasKotlin
 
 
 fun main(){
