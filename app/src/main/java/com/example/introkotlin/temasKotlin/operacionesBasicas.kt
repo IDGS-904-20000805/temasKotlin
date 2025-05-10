@@ -8,14 +8,14 @@ fun calculardoraBasica() {
     a = readln().toDouble()
     print("AHORA ELIJA EL SEGUNDO NUMERO: ")
     b = readln().toDouble()
-    println("EL RESULTADO ES: ${a + b}\n")
+    println("EL RESULTADO ES: ${a + b}")
 
     println("2DO SE REALIZARA LA RESTA")
     print("ELIGA UN NUMERO: ")
     a = readln().toDouble()
     print("AHORA ELIJA EL SEGUNDO NUMERO: ")
     b = readln().toDouble()
-    println("EL RESULTADO ES: ${a - b}\n")
+    println("EL RESULTADO ES: ${a - b}")
 
 
     println("3RO SE REALIZARA LA MULTIPLICACION")
@@ -23,7 +23,7 @@ fun calculardoraBasica() {
     a = readln().toDouble()
     print("AHORA ELIJA EL SEGUNDO NUMERO: ")
     b = readln().toDouble()
-    println("EL RESULTADO ES: ${a * b}\n")
+    println("EL RESULTADO ES: ${a * b}")
 
     
     println("POR ULTIMO SE REALIZARA LA DIVISION")

@@ -1,7 +1,7 @@
 package com.example.introkotlin.temasKotlin
 
 fun calcularFormulaGeneral() {
-    println("\nCALCULADORA DE FORMULA GENERAL (ax^2 + bx + c = 0)")
+    println("CALCULADORA DE FORMULA GENERAL ax^2 + bx + c = 0")
 
 
     print("Ingrese a:")
@@ -15,7 +15,7 @@ fun calcularFormulaGeneral() {
 
 
     if (a == 0.0) {
-        println("El valor de 'a' divide, no puede ser 0")
+        println("El valor de 'a' divide no puede ser 0")
 
     }
     val raiz = b * b - 4 * a * c
