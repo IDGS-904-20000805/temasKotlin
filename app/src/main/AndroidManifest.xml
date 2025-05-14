@@ -12,6 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntroKotlin"
         tools:targetApi="31">
+
+        <activity
+            android:name=".tema1App.Ejemplo2Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -23,6 +34,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
