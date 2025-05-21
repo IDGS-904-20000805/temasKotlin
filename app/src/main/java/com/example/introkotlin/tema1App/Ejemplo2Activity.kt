@@ -1,7 +1,6 @@
 package com.example.introkotlin.tema1App
 
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -19,7 +18,7 @@ class Ejemplo2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_ejemplo2)
+        setContentView(R.layout.activity_ejemplo2sumas)
          et1 = findViewById<EditText>(R.id.et1)
          et2 = findViewById<EditText>(R.id.et2)
          btn1 = findViewById<Button>(R.id.btn1)
